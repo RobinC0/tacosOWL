@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#accompagne -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#accompagne">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#compose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#compose">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#concerne -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#concerne"/>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Accompagnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Accompagnement">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#accompagne"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Menu"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Algerienne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Algerienne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Andalouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Andalouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Autres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Autres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Bacon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Bacon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Barbeque -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Barbeque">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Biggy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Biggy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Blanche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Blanche">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boisson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boisson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Accompagnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boursin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boursin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Champignons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Champignons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Autres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Cheddar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Cheddar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Chilli-Thai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Chilli-Thai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Chèvre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Chèvre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Coca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Coca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boisson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Cordon_Bleu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Cordon_Bleu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Curry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Curry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fanta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fanta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boisson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Food">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ingredients"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Frites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Frites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Accompagnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromagère -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromagère">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fuego -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fuego">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Galette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Galette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Autres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Gouda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Gouda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Harissa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Harissa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ice_Tea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ice_Tea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boisson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ingredients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ingredients">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#compose"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Food"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ketchup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ketchup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#L -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#L">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tacos"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Taille"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Lardon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Lardon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#M -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#M">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tacos"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Taille"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Manger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Manger">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#concerne"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Food"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Mayonnaise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Mayonnaise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Menu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Menu">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boisson"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Frites"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tacos"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Merguez -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Merguez">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Mozarella -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Mozarella">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Nuggets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Nuggets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Oasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Oasis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boisson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Oignon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Oignon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Autres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Pastrami -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Pastrami">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Poivrons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Poivrons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Autres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Poulet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Poulet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Raclette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Raclette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Fromages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tabasco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tabasco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tacos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tacos">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Food"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Taille -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Taille">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#concerne"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tacos"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tenders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tenders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Texane_Pepper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Texane_Pepper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Sauces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tropico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tropico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Boisson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viande_Hachée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viande_Hachée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#XL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#XL">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tacos"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Taille"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#XXL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#XXL">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Tacos"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#contient"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Viandes"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/robin/ontologies/2022/1/untitled-ontology-9#Taille"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
